@@ -1,0 +1,118 @@
+@media(max-width: 1230px) {
+    .nav-list {
+        display: none;
+    }
+
+    .nav-button {
+        display: block;
+    }
+
+    .nav.open .nav-list{
+        display: flex;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        background-color: white;
+
+        padding: 46px 30px;
+
+        flex-direction: column;
+        row-gap: 40px;
+
+        font-size:34px;
+        font-weight: 600;
+
+        z-index: 1;
+    }
+
+    .nav.open .nav-button {
+        position: fixed;
+    }
+
+    .nav-link {
+        color:#606060;
+    }
+
+    .nav-link.active {
+        color: black;
+    }
+
+    .nav-button {
+        position: absolute;
+        z-index: 9;
+
+        top: 46px;
+        right: 30px;
+    }
+
+    .header-nav {
+        margin-bottom: 50px;
+    }
+
+    .header-content {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .header-text {
+        margin-top: 0;
+    }
+
+    .header-img {
+        text-align: center;
+    }
+}
+
+@media(max-width: 700px) {
+    .header-text h1 {
+        font-size: 34px;
+    }
+
+    .header-text h1 span {
+        font-size: 28px;
+    }
+
+    .services {
+        padding: 60px 0;
+    }
+
+    .portfolio {
+        padding-top: 60px;
+    }
+
+    .portfolio h2 {
+        margin-bottom: 50px;
+    }
+
+    .project img {
+        margin-bottom: 30px;
+    }
+
+    .project h3 a {
+        padding-bottom: 55px;
+    }
+
+    .contacts {
+        padding: 60px 0;
+    }
+
+    .contacts h2 {
+        margin-bottom: 20px;
+    }
+
+    .contacts-content {
+        margin-bottom: 20px;
+    }
+
+    .contacts-button{
+        margin-bottom: 70px;
+    }
+
+    .contacts-social {
+        margin-bottom: 20px;
+        column-gap: 50px;
+    }
+}
